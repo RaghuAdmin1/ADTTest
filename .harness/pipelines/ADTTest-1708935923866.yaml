@@ -14,7 +14,7 @@ pipeline:
             steps:
               - step:
                   type: Run
-                  name: Echo Welcome Message
+                  name: Sample Script
                   identifier: Echo_Welcome_Message
                   spec:
                     shell: Sh
