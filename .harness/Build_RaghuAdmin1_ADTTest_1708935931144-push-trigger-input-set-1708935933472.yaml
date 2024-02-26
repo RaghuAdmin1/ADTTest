@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_RaghuAdmin1_ADTTest_1708935931144-push-trigger-input-set
+  identifier: Build_RaghuAdmin1_ADTTest_1708935931144pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_RaghuAdmin1_ADTTest_1708935931144
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
