@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_RaghuAdmin1_ADTTest_1708935931144-pr-trigger-input-set
+  identifier: Build_RaghuAdmin1_ADTTest_1708935931144prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_RaghuAdmin1_ADTTest_1708935931144
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
