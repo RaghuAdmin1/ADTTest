@@ -24,10 +24,20 @@ pipeline:
                     command: echo hello world
                   timeout: ""
                   type: Run
+              - step:
+                  type: Run
+                  name: Run_2
+                  identifier: Run_2
+                  spec:
+                    shell: Sh
+                    privileged: true
+                    envVariables:
+                      Snyk_Auth_Token: 49cd6045-546f-41ba-b60d-6896370d57a9
           platform:
-            arch: Amd64
             os: Linux
+            arch: Amd64
           runtime:
+            type: Docker
             spec: {}
-            type: Cloud
         type: CI
+        description: ""
