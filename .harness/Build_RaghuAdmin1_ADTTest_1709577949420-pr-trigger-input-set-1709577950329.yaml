@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_RaghuAdmin1_ADTTest_1709577949420-pr-trigger-input-set
+  identifier: Build_RaghuAdmin1_ADTTest_1709577949420prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: ProjectSnyk
+  pipeline:
+    identifier: Build_RaghuAdmin1_ADTTest_1709577949420
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
